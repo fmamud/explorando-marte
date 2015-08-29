@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ftmamud</groupId>
+  <artifactId>explorando-marte</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Explorando Marte</name>
+  <description>Explorando Marte</description>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.11</version>
+  		<scope>test</scope>
+  	</dependency>
+  </dependencies>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <executions>
+               <execution>
+                  <id>default-compile</id>
+                  <configuration>
+                     <showDeprecation>true</showDeprecation>
+                     <showWarnings>true</showWarnings>
+                     <compilerArguments>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                     </compilerArguments>
+                  </configuration>
+               </execution>
+               <execution>
+                  <id>default-testCompile</id>
+                  <configuration>
+                     <showDeprecation>true</showDeprecation>
+                     <showWarnings>true</showWarnings>
+                     <compilerArguments>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                     </compilerArguments>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+  	</plugins>
+  </build>
+  <url>https://github.com/fmamud/explorando-marte</url>
+</project>
